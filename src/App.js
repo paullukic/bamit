@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./Home";
-import Login from "./Login";
-import { AuthProvider } from "./Auth.js";
-import PrivateRoute from "./PrivateRoute";
+import Home from "./Home/Home";
+import Login from "./Login/Login";
+import { AuthProvider } from "./Firebase/Auth";
+import PrivateRoute from "./Firebase/PrivateRoute";
 
 const App = () => {
   return (
