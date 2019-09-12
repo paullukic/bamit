@@ -1,0 +1,40 @@
+.itembox{
+    background-color: rgba(240, 248, 255, 0.274);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+    max-width: 400px;
+    height: 20px;
+}
+.boxp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 350px;
+    width: 90%;
+    margin-top: -16px;
+}
+.itembox > p{
+    margin: 0;
+    padding: 0;
+}
+
+.itembox:hover{
+    background-color: rgba(240, 248, 255, 0.164);
+}
+
+.input{
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 100%;
+    max-width: 30px;
+}
+
+.button{
+    margin-right: 5px;
+}
